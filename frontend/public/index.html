@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bank Terminal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="built/index.js"></script>
+</head>
+<body>
+<c-screens id="screens">
+  <div id="options">
+    <button id="doDeposit">Deposit</button>
+    <button id="doTransfer">Transfer</button>
+  </div>
+
+  <div id="deposit" class="hidden">
+    <form>
+      <label>
+        Amount
+        <input type="number" min="0">
+      </label>
+      <button type="submit">Deposit</button>
+    </form>
+  </div>
+
+  <div id="transfer" class="hidden">
+    <form>
+      <label>
+        Amount
+        <input type="number" min="0">
+      </label>
+      <button type="submit">Transfer</button>
+    </form>
+  </div>
+</c-screens>
+</body>
+</html>

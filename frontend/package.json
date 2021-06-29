@@ -1,0 +1,10 @@
+{
+  "name": "frontend",
+  "type": "module",
+  "private": true,
+  "version": "0.1.0",
+  "devDependencies": {
+    "@sanjo/define-element": "^1.0.1",
+    "@sanjo/read-file": "^1.2.0"
+  }
+}
